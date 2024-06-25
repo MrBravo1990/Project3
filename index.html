@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="header-left">
+            <img src="logo.jpg" alt="Logo" id="logo">
+            <h1 id="site-title">Photography</h1>
+            <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+        </div>
+        <nav id="header-right">
+            <button class="header-button" data-section="home">HOME</button>
+            <button class="header-button" data-section="gallery">GALLERY</button>
+            <button class="header-button" data-section="blog">BLOG</button>
+            <button class="header-button" data-section="contact">CONTACT ME</button>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <section id="home" class="tab-pane">
+            <div class="home-box" id="box1">
+                <figure>
+                    <video autoplay loop muted>
+                        <source src="Reel2019.mp4" type="video/mp4">
+                    </video>
+                    <p>Capture life's most precious moments with stunning photography that tells your unique story. From intimate portraits to grand celebrations, let us create timeless memories you'll cherish forever.</p>
+                </figure>
+            </div>
+
+            <div class="home-box" id="box2">
+                <div class="mini-gallery">
+                    <div class="image-container">
+                        <img src="bridal.jpg" alt="Bridal image">
+                        <div class="overlay">Bridal</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="baby.jpg" alt="Baby image">
+                        <div class="overlay">Baby Photography</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="landscape.jpg" alt="Cityscape image">
+                        <div class="overlay">Landscape</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-box" id="box3">
+                <h2>About Me</h2>
+                <div class="about-me-content">
+                    <div class="portrait">
+                        <img src="portrait.jpg" alt="Portrait">
+                    </div>
+                    <div class="biography">
+                        <p>Born in Mexico and raised in California, I developed a love for all types of photography. I love 
+                            capturing those moments that otherwise will be forgotten.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="tab-pane" style="display:none;">
+            <div class="gallery-header">
+                <h2>Gallery</h2>
+            </div>
+
+            <div class="gallery-content">
+                <div class="photo-container">
+                    <figure class="photo">
+                        <img src="baby-and-dad.jpg" alt="Baby and dad in the snow">
+                        <figcaption>Orem, UT.</figcaption>
+                    </figure>
+                    <div class="description">
+                        <p>
+                            In this heartwarming photograph, a proud dad cradles his baby daughter in his arms on a 
+                            picturesque snowy day. The snow blankets the ground in a pristine white, creating a serene 
+                            backdrop that highlights the tender moment between father and child.
+                        </p>
+                    </div>
+                </div>
+                <div class="photo-container">
+                    <figure class="photo">
+                        <img src="christ.jpg" alt="Photo of the Christus in SLC.">
+                        <figcaption>The Christus, Salt Lake City, UT.</figcaption>
+                    </figure>
+                    <div class="description">
+                        <p>
+                            Members of The Church of Jesus Christ of Latter-day Saints believe in Jesus Christ and 
+                            strive to follow Him. To communicate the Latter-day Saints’ faith in Jesus Christ, the 
+                            Church commissioned a replica of Bertel Thorvaldsen’s original sculpture of Christ known to 
+                            Latter-day Saints as the Christus statue.
+                        </p>
+                    </div>
+                </div>
+                <div class="photo-container">
+                    <figure class="photo">
+                        <img src="mountains.jpg" alt="Mountoans on Utah.">
+                        <figcaption>Big Cottonwood Canyon.</figcaption>
+                    </figure>
+                    <div class="description">
+                        <p>
+                            Took this photo on a trip to Donut Falls, in the Big Cottonwood Canyon. This photo just 
+                            captures the amazing colors we can see at sunset here in Utah.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="tab-pane" style="display: none;">
+            <div class="blog-header">
+                <h2>Blog</h2>
+            </div>
+
+            <div class="blog-content">
+                <article>
+                    <details>
+                        <summary>
+                            <header class="blog-article-header">
+                                <h3>Are DJI drones getting banned?</h3>
+                                <p>BY BRANDON RUSSELL | June 21, 2024</p>
+                            </header>
+                        </summary>
+                        <section>
+                            <p>
+                                The future of DJI (Da Jiang Innovations) drones is metaphorically up in the air as the Countering CCP Drones Act, 
+                                introduced by Representative Elise Stefanik (R-NY), gains more support in Congress, raising the possibility of a nationwide ban in the U.S.
+                    
+                                Proponents of the bill cite national security concerns, alleging DJI drones are providing data on critical infrastructure in the United States 
+                                to the Chinese Communist Party. If passed, the bill could significantly impact the drone industry in the U.S. and potentially affect consumers 
+                                who rely on DJI drones for recreation, commercial applications and public safety initiatives like search and rescue missions. DJI is fighting 
+                                the ban through lobbying efforts and more.
+                    
+                                In a nutshell:
+                                The U.S. government may ban DJI drones, concerned that China is collecting information through them.
+                                This would impact several areas of the consumer market and commercial drone market.
+
+                                Following unanimous approval by the House Energy and Commerce Committee, the bill is making its way through Congress and 
+                                could later land on President Joe Biden’s desk. The legislation proposes adding DJI to a list maintained by the 
+                                Federal Communications Commission (FCC) under the Secure and Trusted Communications Networks Act of 2019. 
+                                This would block DJI’s drones from running on communications infrastructure in the U.S., according to “The New York Times,” 
+                                effectively rendering them unusable. While the bill has received wide bipartisan support, DJI has vehemently voiced its 
+                                opposition.
+                            </p>
+                        </section>
+                        <footer>
+                            <a href="https://apnews.com/buyline-shopping/article/dji-drone-ban-in-the-us#:~:text=While%20nothing%20is%20concrete%20yet,in%20the%20U.S.%20moving%20forward.">Read the full article</a>
+                        </footer>
+                    </details>
+                </article>
+            </div>
+
+            
+        </section>
+
+        <aside id="contact" class="tab-pane" style="display:none;">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <div class="contact-form">
+                    <textarea id="message" placeholder="Type your message here..."></textarea>
+                    <button id="sendButton">Send</button>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
